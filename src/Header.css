@@ -1,0 +1,62 @@
+.header {
+  position: sticky;
+  top: 16px;
+  right: 26px;
+  left: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* Могу контролировать длинну хедера изменяя внизу width, делая меньше 100% делает то что нужно */
+  width: 1128px;
+  /* margin-left: 340px; */
+  /* margin-right: 10px; */
+  z-index: 999;
+  background-color: #ffffff;
+  height: 62px;
+  /* padding: 12px 24px; */
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header__search {
+  /* padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+  background-color: #eef3f8; */
+
+  /* border: 1px solid gray; */
+  /* border-radius: 30px; */
+  display: flex;
+  padding: 10px;
+  color: gray;
+  padding-left: 15px;
+  width: 826px;
+  align-items: center;
+}
+
+.header__search > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.header__right {
+  display: flex;
+}
+
+.feed__avatar {
+  margin-bottom: 10px;
+}

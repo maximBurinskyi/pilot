@@ -1,0 +1,232 @@
+.sidebar {
+  top: 80px;
+  position: sticky;
+  flex: 0.2;
+  border-radius: 10px;
+  text-align: center;
+  /* height: fit-content; */
+  margin-top: -80px;
+  /* background-color: white; */
+  /* height: 100vh; */
+  width: 260px;
+}
+
+.sidebar__avatar {
+  margin-bottom: 10px;
+}
+
+.sidebar__top {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid lightgray; */
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #ffffff;
+  /* padding-bottom: 10px; */
+}
+.sidebar__topLeft > h1 {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.sidebar__topLeft {
+  display: flex;
+  margin-top: 5px;
+}
+
+.sidebar__topRight {
+  display: flex;
+  margin-top: 5px;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  margin-left: 30px;
+}
+
+.sidebar__top > img {
+  margin-top: 5px;
+}
+
+.sidebar__stat {
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__top > h4 {
+  color: gray;
+  font-size: 12px;
+}
+
+.sidebar__top > h2 {
+  font-size: 18px;
+}
+
+.sidebar__stats {
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  /* border: 1px solid lightgray; */
+  background-color: #ffffff;
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+}
+.sidebar__LearWord {
+  /* background-color: #4b465c; */
+  color: #4b465c;
+  outline: blue;
+  /* border: 1px solid lightgray; */
+  background: rgba(75, 70, 92, 0.04);
+  width: 231px;
+  height: 42px;
+  align-items: center;
+
+  justify-content: space-between;
+  border-radius: 6px;
+  display: flex;
+  padding: 5px;
+  border-radius: 6px;
+
+  /* padding: 9px 16px;
+  display: flex;
+  flex: 1; */
+}
+
+.sidebar__LearWord > img {
+  /* left: 0; */
+  margin-left: 4px;
+  margin-right: 4px;
+  align-items: flex-end;
+}
+
+.sidebar__LearWord > p {
+  /* left: 0; */
+  margin-left: 3px;
+  margin-right: 79px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar__QuickStart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 231px;
+  height: 40px;
+  background-color: #7367f0;
+  margin-left: 4px;
+  padding: 4px;
+  border-radius: 6px;
+}
+.sidebar__QuickStart > img {
+  /* left: 0; */
+  margin-right: 5px;
+  /* align-items: flex-end; */
+}
+.sidebar__MyDictionaries {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px;
+  margin-top: 4px;
+  /* margin-left: 3px; */
+}
+.sidebar__MyDictionaries > p {
+  /* width: 22px; */
+}
+
+.sidebar__MyDictionaries > img {
+  /* width: 22px; */
+  margin-right: 5px;
+}
+
+.sidebar__PreparedDicrionaries {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.sidebar__PreparedDicrionaries > img {
+  /* width: 22px; */
+  margin-right: 5px;
+}
+.sidebar__MyTexts {
+  display: flex;
+  margin: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* padding-left: 1px; */
+  padding-right: 4px;
+  padding-top: 4px;
+}
+
+.sidebar__MyTexts > img {
+  /* width: 22px; */
+  margin-right: 5px;
+}
+.sidebar__stat > p {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sidebar__words {
+  color: #4b465c;
+  font-size: 15px;
+  font-weight: 400;
+}
+.sidebar__wordsLearnWords {
+  color: #4b465c;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sidebar__wordsQuickStart {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sidebar__bottom {
+  text-align: left;
+  padding: 10px;
+  /* border: 1px solid lightgray; */
+  background-color: #ffffff;
+  /* border-radius: 10px; */
+  /* margin-top: 10px; */
+  height: 100vh;
+}
+
+.sidebar__recentItem {
+  display: flex;
+  font-size: 13px;
+  /* color: gray; */
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 5px;
+  color: #4b465c;
+}
+.sidebar__recentItem:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}
+.sidebar__hash {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.sidebar__bottom > p {
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: gray;
+  margin-left: 4px;
+  /* height: 100vh; */
+}
+
+/* .sidebar__footer {
+  height: 100px;
+} */
